@@ -1,0 +1,113 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Введите ваше имя: ");
+        String name = scanner.nextLine();
+
+        System.out.println("Привет, " + name + "!");
+
+//        2
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Введите первое число: ");
+//        int num1 = scanner.nextInt();
+//
+//        System.out.print("Введите второе число: ");
+//        int num2 = scanner.nextInt();
+//
+//        int sum = num1 + num2;
+//        System.out.println("Сумма: " + sum);
+
+
+//        3
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Введите первое число (с плавающей запятой): ");
+//        double num1 = scanner.nextDouble();
+//
+//        System.out.print("Введите второе число (с плавающей запятой): ");
+//        double num2 = scanner.nextDouble();
+//
+//        System.out.printf("Результат: %.2f\n", num1 + num2);
+
+
+//        4
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Введите ваше имя: ");
+//        String name = scanner.nextLine();
+//
+//        System.out.print("Введите ваш возраст: ");
+//        int age = scanner.nextInt();
+//
+//        System.out.print("Вы студент? (true/false): ");
+//        boolean isStudent = scanner.nextBoolean();
+//
+//        System.out.println("Имя: " + name);
+//        System.out.println("Возраст: " + age);
+//        System.out.println("Студент: " + isStudent);
+
+
+//        5
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Введите размер массива: ");
+//        int size = scanner.nextInt();
+//
+//        int[] numbers = new int[size];
+//
+//        System.out.println("Введите элементы массива:");
+//        for (int i = 0; i < size; i++) {
+//            numbers[i] = scanner.nextInt();
+//        }
+//
+//        System.out.println("Элементы массива:");
+//        for (int i = 0; i < size; i++) {
+//            System.out.print(numbers[i] + " ");
+//        }
+
+
+
+//        Task-2
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Введите ваше имя: ");
+//        String name = scanner.nextLine();
+//
+//        System.out.print("Введите ваш возраст: ");
+//        int age = scanner.nextInt();
+//
+//        System.out.print("Введите ваш пол (М/Ж): ");
+//        char gender = scanner.next().charAt(0);
+//
+//        scanner.nextLine();
+//        System.out.print("Введите ваш город проживания: ");
+//        String city = scanner.nextLine();
+//
+//        System.out.print("Введите ваше образование (например, Среднее, Высшее, и т.д.): ");
+//        String education = scanner.nextLine();
+//
+//        System.out.print("Вы состоите в браке? (true/false): ");
+//        boolean isMarried = scanner.nextBoolean();
+//
+//        scanner.nextLine();
+//        System.out.print("Какие у вас хобби? ");
+//        String hobbies = scanner.nextLine();
+//
+//        System.out.print("Вы работаете? (true/false): ");
+//        boolean isEmployed = scanner.nextBoolean();
+//
+//        System.out.println("\n--- Ваши данные ---");
+//        System.out.println("Имя: " + name);
+//        System.out.println("Возраст: " + age);
+//        System.out.println("Пол: " + gender);
+//        System.out.println("Город проживания: " + city);
+//        System.out.println("Образование: " + education);
+//        System.out.println("Состояние в браке: " + (isMarried ? "Да" : "Нет"));
+//        System.out.println("Хобби: " + hobbies);
+//        System.out.println("Работа: " + (isEmployed ? "Да" : "Нет"));
+    }
+}
