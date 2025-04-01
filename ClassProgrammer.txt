@@ -1,0 +1,22 @@
+public class Programmer {
+    public String fullName;
+    public int age;
+    private int salary;
+
+
+    public Programmer(String fullName, int age, int salary) {
+        this.fullName = fullName;
+        this.age = age;
+        this.salary = salary;
+    }
+    public Programmer(String fullName, int age) {
+        this.fullName = fullName;
+        this.age = age;
+    }
+
+    public void writeCode() {
+        System.out.println(fullName);
+    }
+    
+}
+
