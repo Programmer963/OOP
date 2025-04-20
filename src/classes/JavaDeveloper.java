@@ -1,3 +1,5 @@
+package classes;
+
 class JavaDeveloper implements Developer {
     @Override
     public void code() {
