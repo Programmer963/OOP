@@ -1,7 +1,7 @@
 package tutorial;
 
 public class DataType {
-    public static void main(JavaString[] args) {
+    public static void main(String[] args) {
         int age = 19;
         String sureName = "Bolat";
         char initial = 'A';

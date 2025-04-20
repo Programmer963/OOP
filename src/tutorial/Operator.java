@@ -1,7 +1,7 @@
 package tutorial;
 
 public class Operator {
-    public static void main(JavaString[] args) {
+    public static void main(String[] args) {
         int a = 100;
         int b = 13;
 
@@ -33,9 +33,9 @@ public class Operator {
         a = 100;
         System.out.println("a^=c " + (a^=c));
         a = 100;
-        System.out.println("a^=c " + (a>>=c));
+        System.out.println("a>>=c " + (a>>=c));
         a = 100;
-        System.out.println("a^=c " + (a<<=c));
+        System.out.println("a<<=c " + (a<<=c));
 
         int x = 10;
         int y = 21;
